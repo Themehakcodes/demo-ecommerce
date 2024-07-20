@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DEMO PROJECT </title>
+
+    <style>
+nav
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+  background-color: #0E2431;
+}
+
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo a{
+  font-weight: 500;
+  font-size: 35px;
+  color: #70e7a2;
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #2ddd53;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+}
+ .nav-links li a:hover{
+   color: #1ab957;
+ }
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="#"> S M BROTHERS </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</body>
+</html>
